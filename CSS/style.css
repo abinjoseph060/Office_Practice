@@ -55,11 +55,12 @@ div img {
 
 .search {
     width: 570px;
-    height: 28px;
+    height: 32px;
     border-top: 1px solid #bdbdbd;
     border-bottom: 1px solid #d3d3d3;
     border-right: 1px solid #d3d3d3;
     border-left: 1px solid #d3d3d3;
+    border-radius: 20px;
     padding-right: 30px;
     font: 16px arial, sans-serif;
     text-indent: 5px;
@@ -115,7 +116,7 @@ footer a:hover {
     text-decoration: underline;
 }
 
-.leftlinks {
+.left {
     position: relative;
     bottom: 12px;
     left: 18px;
@@ -123,7 +124,7 @@ footer a:hover {
     padding-left: 15px;
 }
 
-.rightlinks {
+.right {
     position: relative;
     bottom: 9px;
     float: right;
